@@ -1,0 +1,4 @@
+{
+    "api/todo/create": "Create todos",
+    "api/todo/get": "Get todos"
+  }
