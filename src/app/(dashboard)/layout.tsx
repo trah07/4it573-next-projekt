@@ -5,7 +5,7 @@ const DashboardLayout = ({ children }) => {
   return (
     <div>
       <div>
-        <h1>Todos</h1>
+        <h1 className="text-3xl font-bold">Todos Page</h1>
       </div>
       <div>
         <TodoForm />
