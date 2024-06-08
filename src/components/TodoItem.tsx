@@ -6,8 +6,8 @@ import { useTransition } from 'react';
 const TodoItem = ({ todo }: { todo: Todo }) => {
   const [, startTransition] = useTransition();
   return (
-    <div className="grid grid-cols-6">
-      <div className={`text-xl mr-4 ${todo.done ? 'line-through' : ''}`}>
+    <div className="grid grid-cols-6 my-2">
+      <div className={`text-xl mr-4 p-2 ${todo.done ? 'line-through' : ''}`}>
         {todo.title}
       </div>
       <div>
